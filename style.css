@@ -1,57 +1,80 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
 
-body{
+body {
 	font-family: sans-serif;
 }
-/* navigation bar styling */
+
 nav {
 	background: #2e6472;
 	display: flex;
 	justify-content: space-between;
 }
 
-/* style for the logo image */
+
 
 #logo-image {
 	width: 100%;
 	height: 100px;
 }
 
-/* search bar styling */ 
+
 
 #search {
 	width: 80%;
 	height: 2rem;
 }
-/* styles for the container div */
+
 .container {
 	padding: 1.5rem;
 	margin: 1rem;
 }
 
-/* styling the main section */
+
 
 section {
 	float: left;
 	width: 60%;
 }
 
-iframe{
-    width: 100%;
-    height: 80vh;
+iframe {
+	width: 100%;
+	height: 80vh;
+	width: "100%";
+	height: "60%";
 }
 
-.link a{
+.link a {
 	font-size: 14px;
 	text-decoration: none;
 	font-family: sans-serif;
 	color: blueviolet;
 }
 
-/* styling the aside section */
+.likes span {
+	padding-left: 0.5rem;
+	/* margin: 0.3rem; */
+	font-size: 12px;
+}
+
+.likes span i {
+	font-size: 15px;
+}
+
+.views-count-and-like-icons {
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+}
+
+.views-count-and-like-icons span {
+	padding-left: .5rem;
+	/* margin: .3rem; */
+	pointer-events: pointer;
+}
+
 
 aside {
 	display: flex;
@@ -60,8 +83,8 @@ aside {
 	width: 35%;
 }
 
-/* aside intro part stylings */
-.side-bar-intro-text{
+
+.side-bar-intro-text {
 	display: flex;
 	justify-content: space-between;
 }
@@ -71,28 +94,28 @@ aside {
 	color: rgb(41, 41, 194);
 }
 
-.upnext img{
+.upnext img {
 	float: left;
 	width: 40%;
 	height: 120px;
-	padding: .5rem;
+	padding: 0.5rem;
 	/* margin: 1rem; */
 }
 
-.recomended img{
+.recomended img {
 	float: left;
 	width: 40%;
 	height: 120px;
-	padding: .5rem;
+	padding: 0.5rem;
 }
 
-.description-text{
+.description-text {
 	/* float: right; */
-	padding: .5rem;
+	padding: 0.5rem;
 	font-size: 12px;
 }
 
-.title{
+.title {
 	font-weight: bold;
 	font-size: 20px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
