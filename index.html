@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
-
-		<title></title>
-
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 	</head>
 	<body>
 		<header>
 			<nav>
-				<img src="images/ui.svg" alt="this is a menu icon" id="menu" />
-
-				<img src="images/youtube.svg" alt="this is a youtube icon" id="logo" />
-
-				<input type="text" placeholder="Search" name="" value="" id="search" />
+				<div class="logo-container">
+					<span><i class="fas fa-bars"></i></span>
+					<img src="images/youtube.svg" alt="this is a youtube icon" id="logo-image" />
+				</div>
+				<div class="search-container">
+					<form action="">
+						<input type="text" placeholder="Search" />
+						<button>
+							<span><i class="fas fa-search"></i></span>
+						</button>
+					</form>
+				</div>
+				<div class="right-icons">
+					<span><i class="fas fa-video"></i></span>
+					<span><i class="fas fa-th"></i></span>
+					<span><i class="fas fa-bell"></i></span>
+					<button>
+						<span>
+							<i class="far fa-user"></i>
+						</span>
+						sign up
+					</button>
+				</div>
 			</nav>
 		</header>
 
@@ -26,16 +44,188 @@
 					src="https://www.youtube.com/embed/jXZAbnn1kTU"
 					frameborder="0"
 				></iframe>
-				
 			</section>
 
 			<aside>
-                <div class="upnext">
-                   <img src="images/deepfocus.jfif" alt="">
-                   <p>play next </p>
-                </div>
+				<div class="side-bar-intro-text">
+					<p>Up next</p>
+					<span><i class="fas fa-toggle-on"></i></span>
+				</div>
 
-            </aside>
+				<div class="upnext">
+					<div>
+						<img src="images/deepfocus.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Ambient study music to concentrate -4hours of Musi...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>1.1M views. 3 months ago</p>
+					</div>
+				</div>
+				<hr />
+				<br />
+				<div class="recomended">
+					<div>
+						<img src="images/study.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Mix -Study music to help remember. 4hours</p>
+						<br />
+						<p>YouTube</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study2.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Aurora Borealis And Northern Lights -Relaxing Ambient Mus...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>4.7M views. 1 month ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study3.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Super Intelligence: Memory Music, Improve Memory and...</p>
+						<br />
+						<p>Greenred Productions -Relax...</p>
+						<p>776k views. 2 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study4.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Aurora Borealis And Northern Lights -Relaxing Ambient Mus...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>4.7M views. 1 month ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/spirit-image2.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Bible verses for sleep with music ( The power of God's...</p>
+						<br />
+						<p>Peaceful Scriptures</p>
+						<p>Recommended for you</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study5.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">FOCUS MUSIC PLAYLIST: Pomodoro Style Piano Study...</p>
+						<br />
+						<p>Study Music Project</p>
+						<p>108k vies . 6 months ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study6.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Relaxing Music & Soft Rain: Sleep Music, Calm Piano Musi...</p>
+						<br />
+						<p>Soothing Relaxation</p>
+						<p>4.7 views . 1 year ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study7.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">6 Hour Study Music Alpha Waves: Relaxing Studying...</p>
+						<br />
+						<p>Body Mind Zone</p>
+						<p>5.8M views . 5 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study8.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Deep Focus -Music for Studying, Concentration and...</p>
+						<br />
+						<p>Quiet Quest -Study Music</p>
+						<p>154k views . 2 months ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study9.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Relaxing Sleep Music: Deep Sleeping Music, Fall Asleep,...</p>
+						<br />
+						<p>Soothing Relaxation</p>
+						<p>4.5M views . 2 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/spirit-image1.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Spiritual warfare prayer scriptures ( Encouraging Bible...</p>
+						<br />
+						<p>Peaceful Scriptures</p>
+						<p>Recommended for you</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study10.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">8 hour study Music: Brain Power, Studying Music, Focus...</p>
+						<br />
+						<p>Body Mind Zone</p>
+						<p>3M views . 5 years ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study11.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Active Brain to 100% Potential : Genius Brain Frequency-...</p>
+						<br />
+						<p>Good Vibes -Binaural Beats</p>
+						<p>12M . 2 years ago</p>
+					</div>
+				</div>
+			</aside>
 		</main>
 	</body>
 </html>
