@@ -63,6 +63,34 @@ iframe {
 	pointer-events: pointer;
 }
 
+.user-info{
+	 margin-top: 1rem;
+	 display: flex;
+	 justify-content: space-between;
+	 line-height: 30px;
+}
+
+.subscribers-detailed-text{
+   font-size: 15px;
+   font-weight: 10;
+   margin-left: 3.5rem;
+}
+
+.user-info .title {
+   margin-left: .9rem;
+}
+
+.host-icon {
+	font-size: 2.8rem;
+	float: left;
+}
+
+.subscribe-btn{
+	background: #f00707;
+	padding: .5em;
+	cursor: pointer;
+	border: none;
+}
 
 aside {
 	display: flex;
