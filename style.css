@@ -92,7 +92,6 @@ aside {
 	flex-direction: column;
 	float: right;
 	width: 35%;
-
 }
 
 .side-bar-intro-text {
@@ -150,7 +149,7 @@ aside {
 	width: 60%;
 }
 
-.column{
+.column {
 	float: left;
 	width: 20%;
 }
@@ -167,11 +166,11 @@ aside {
 }
 
 .right-icon {
-	 font-size: 21px;
-	 padding: .5rem;
+	font-size: 21px;
+	padding: 0.5rem;
 }
 
-#sign-in-btn{
+#sign-in-btn {
 	padding: 8px;
 	color: blue;
 }
@@ -192,14 +191,14 @@ aside {
 	cursor: pointer;
 }
 
-#logo{
+#logo {
 	display: flex;
 	display: inline-block;
 	margin-left: 1em;
 	height: 1.2rem;
 }
 
-form.search input[type=text]{
+form.search input[type='text'] {
 	padding: 7px;
 	font-size: 17px;
 	border: 1px solid grey;
@@ -208,3 +207,44 @@ form.search input[type=text]{
 	background: #fff;
 }
 
+.host-info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+	line-height: 35px;
+}
+
+.host-info span i {
+	float: left;
+	font-size: 35px;
+}
+
+.host-info.title,
+.host-info p {
+	margin-left: 2.9rem;
+}
+
+#subscribe-btn {
+	padding: 0.5rem;
+	background: #df1212;
+	border: none;
+}
+
+.num-of-subscribers {
+	font-size: 12px;
+}
+
+.host-info .title {
+	line-height: 10px;
+}
+
+#comments-counter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: .5rem;
+}
+
+#sort-text{
+	cursor: pointer;
+}
