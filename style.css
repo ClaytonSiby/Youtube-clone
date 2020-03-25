@@ -248,3 +248,25 @@ form.search input[type='text'] {
 #sort-text{
 	cursor: pointer;
 }
+
+#user-btn i{
+font-size: 3rem;
+}
+
+#comments-line{
+border: none;
+border-bottom: 1px solid black;
+float: right;
+width: 95%;
+margin-top: 15px;
+}
+
+#comments-line #user-btn i{
+float: left;
+
+}
+
+#comment-div{
+margin-top: 20px;
+padding: 20px;
+}
