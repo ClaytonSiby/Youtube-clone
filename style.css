@@ -44,6 +44,13 @@ iframe{
     height: 80vh;
 }
 
+.link a{
+	font-size: 14px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: blueviolet;
+}
+
 /* styling the aside section */
 
 aside {
