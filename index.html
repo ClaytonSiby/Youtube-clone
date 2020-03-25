@@ -8,56 +8,36 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 	</head>
 	<body>
-
-
-		  <nav>
-
-<div class="row">
+		<nav>
+			<div class="row">
 				<div class="column">
-
-					<span><i class="fas fa-bars"></i></span>
-
-				  <img src="images/youtube.svg" alt="this is a youtube icon" id="logo">
-
+					<span id="menu-icon"><i class="fas fa-bars"></i></span>
+					<img src="images/logo3.jpg" alt="this is a youtube icon" id="logo" />
 				</div>
 
-       <div class="column">
+				<div class="column1">
+					<form class="search" action="">
+						<input type="text" placeholder="Search..." name="search" />
+						<button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
 
-<form class="" action="" method="post">
-
-  <input type="text" placeholder="Search" name="" value="" id="search">
-	<button type="button" name="button" id="search_btn"><span> <i class="fas fa-search"></i></span></button>
-
-</form>
-
-
-
-</div>
-
-        <div id="icons_right">
-					<span ><i class="fas fa-video"></i></span>
-        	<span><i class="fas fa-th"></i></span>
-					<span><i class="fas fa-ellipsis-v"></i></span>
-          <button type="button" name="button"> <span><i class="far fa-user-circle"></i></span> SIGN IN</button>
-       </div>
-
-
-</div>
-
-		  </nav>
-
-
-
+				<div id="icons_right">
+					<span class="right-icon"><i class="fas fa-video"></i></span>
+					<span class="right-icon"><i class="fas fa-th"></i></span>
+					<span class="right-icon"><i class="fas fa-ellipsis-v"></i></span>
+					<button type="button" name="button" id="sign-in-btn">
+						<span><i class="far fa-user-circle"></i></span> SIGN IN
+					</button>
+				</div>
+			</div>
+		</nav>
 
 		<main class="container">
 			<section>
 				<div class="section-container">
 					<div class="video-embed">
-						<iframe
-
-							src="https://www.youtube.com/embed/jXZAbnn1kTU"
-							frameborder="0"
-						></iframe>
+						<iframe src="https://www.youtube.com/embed/jXZAbnn1kTU" frameborder="0"></iframe>
 						<p class="link"><a href="#">#studymusic #musicforstudying #ambient</a></p>
 						<h2>Ambient Music to concentrate - 4hours of music for study...</h2>
 						<br />
@@ -82,8 +62,8 @@
 
 			<aside>
 				<div class="side-bar-intro-text">
-					<h3>Up next</h3>
-					<span><i class="fas fa-toggle-on"></i></span>
+					<p>Up next</p>
+					<p>Autoplay <i class="fas fa-toggle-on"></i></p>
 				</div>
 
 				<div class="upnext">
