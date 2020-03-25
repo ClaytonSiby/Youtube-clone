@@ -8,11 +8,8 @@ body {
 }
 
 nav {
-	background: white;
-
-	/* display: flex; */
 	justify-content: space-between;
-}
+    }
 
 
 .container {
@@ -138,12 +135,13 @@ aside {
 }
 
 #menu{
-width: 2rem;
-height: 2rem;
+width: 5rem;
+height: 5rem;
+margin-bottom: 9rem;
 }
 
 #logo{
-width: 7rem;
+width: 15rem;
 height: 5rem;
 }
 
@@ -151,5 +149,38 @@ height: 5rem;
 
 width: 80%;
 height: 2rem;
+margin-top: 10px;
+line-height: 0:
+
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#icons_right
+{
+
+float: right;
+
+margin-top: 15px;
+
+}
+
+#search_btn{
+padding: 7px;
+
+margin-left: 0;
+
 
 }
