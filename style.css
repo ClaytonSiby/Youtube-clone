@@ -252,7 +252,9 @@ form.search input[type='text'] {
 #user-btn i{
 font-size: 3rem;
 }
-
+#user-btn2{
+font-size: 3rem;
+}
 #comments-line{
 border: none;
 border-bottom: 1px solid black;
@@ -269,4 +271,30 @@ float: left;
 #comment-div{
 margin-top: 20px;
 padding: 20px;
+}
+
+.comment-div{
+margin-top: 1px;
+padding: 20px;
+}
+
+.comments-line2{
+border: none;
+float: right;
+width: 95%;
+margin-top: 15px;
+}
+
+form.comment-div #user
+{
+margin-left: 60px;
+
+}
+
+form.comment-div #icons-comment
+{
+margin-left: 55px;
+
+padding: 2px;
+
 }
