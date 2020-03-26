@@ -25,8 +25,6 @@ section {
 iframe {
   width: 100%;
   height: 80vh;
-  width: '100%';
-  height: '60%';
 }
 
 .link a {
@@ -69,9 +67,6 @@ iframe {
   margin-left: 3.5rem;
 }
 
-.user-info .title {
-  margin-left: 0.9rem;
-}
 
 .host-icon {
   font-size: 2.8rem;
@@ -134,6 +129,11 @@ aside {
   margin-top: 0;
 }
 
+.user-info .title {
+  margin-left: 0.9rem;
+}
+
+
 #search {
   width: 80%;
   height: 2rem;
@@ -149,7 +149,7 @@ aside {
   width: 20%;
 }
 
-.row:after {
+.row::after {
   content: '';
   display: table;
   clear: both;
@@ -260,7 +260,7 @@ form.search input[type='text'] {
 
 .comment-title {
   font-size: 18px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   font-weight: 500;
 }
 
