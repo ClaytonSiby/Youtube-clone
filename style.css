@@ -39,6 +39,11 @@ iframe {
   font-size: 12px;
 }
 
+.commenter-icon i {
+  float: left;
+  font-size: 1.9rem;
+}
+
 .likes span i {
   font-size: 15px;
 }
@@ -66,7 +71,6 @@ iframe {
   font-weight: 10;
   margin-left: 3.5rem;
 }
-
 
 .host-icon {
   font-size: 2.8rem;
@@ -133,7 +137,6 @@ aside {
   margin-left: 0.9rem;
 }
 
-
 #search {
   width: 80%;
   height: 2rem;
@@ -168,10 +171,6 @@ aside {
 #sign-in-btn {
   padding: 8px;
   color: blue;
-}
-
-#sign-in-btn i {
-  font-size: 20px;
 }
 
 #search-btn {
@@ -214,6 +213,10 @@ form.search input[type='text'] {
   font-size: 35px;
 }
 
+#sign-in-btn i {
+  font-size: 20px;
+}
+
 .host-info.title,
 .host-info p {
   margin-left: 2.9rem;
@@ -247,11 +250,6 @@ form.search input[type='text'] {
 .incoming-comment {
   line-height: 25px;
   margin-top: 2rem;
-}
-
-.commenter-icon i {
-  float: left;
-  font-size: 1.9rem;
 }
 
 .incoming-comment p {
