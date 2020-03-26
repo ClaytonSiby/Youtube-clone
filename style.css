@@ -238,37 +238,101 @@ form.search input[type='text'] {
 	line-height: 10px;
 }
 
-#comments-counter{
+#comments-counter {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: .5rem;
+	margin-top: 0.5rem;
 }
 
-#sort-text{
+#sort-text {
 	cursor: pointer;
 }
 
-#user-btn i{
-font-size: 3rem;
+#user-btn i {
+	font-size: 3rem;
+}
+#user-btn2 {
+	font-size: 3rem;
+}
+#comments-line {
+	border: none;
+	border-bottom: 1px solid black;
+	float: right;
+	width: 95%;
+	margin-top: 15px;
 }
 
-#comments-line{
-border: none;
-border-bottom: 1px solid black;
-float: right;
-width: 95%;
-margin-top: 15px;
+#comments-line #user-btn i {
+	float: left;
 }
 
-#comments-line #user-btn i{
-float: left;
-
+#comment-div {
+	margin-top: 20px;
+	padding: 20px;
 }
 
-#comment-div{
-margin-top: 20px;
-padding: 20px;
+.comment-div {
+	margin-top: 1px;
+	padding: 20px;
 }
 
+.comments-line2 {
+	border: none;
+	float: right;
+	width: 95%;
+	margin-top: 15px;
+}
 
+form.comment-div #user {
+	margin-left: 60px;
+}
+
+form.comment-div #icons-comment {
+	margin-left: 55px;
+
+	padding: 2px;
+}
+
+.incoming-comment{
+     line-height: 25px;
+}
+
+.commenter-icon i {
+	float: left;
+	font-size: 25px;
+}
+
+.incoming-comment p {
+	margin-left: 2rem;
+}
+
+.comment-title {
+	font-size: 18px;
+	letter-spacing: 0px;
+	font-weight: 500;
+}
+
+.comment-title span {
+	font-size: 14px;
+}
+
+.comment-text {
+	font-size: 15px;
+}
+
+.like,
+.dislike {
+	font-size: 12px;
+	padding: .3rem;
+}
+
+.view-replies{
+	font-size: 12px;
+	text-decoration: none;
+	color: rgb(54, 54, 230);
+}
+
+.reply{
+	cursor: pointer;
+}
