@@ -1,20 +1,20 @@
 * {
-	 padding: 0;
-	 margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-	 font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 nav {
-	  border-bottom: 1px solid rgb(34, 31, 31);
-	  padding: 20px;
+	border-bottom: 1px solid rgb(34, 31, 31);
+	padding: 20px;
 }
 
 .container {
-	 padding: 1.5rem;
-	 margin: 1rem;
+	padding: 1.5rem;
+	margin: 1rem;
 }
 
 section {
@@ -23,10 +23,10 @@ section {
 }
 
 iframe {
-	 width: 100%;
- 	 height: 80vh;
-	 width: '100%';
-	 height: '60%';
+	width: 100%;
+	height: 80vh;
+	width: '100%';
+	height: '60%';
 }
 
 .link a {
@@ -109,7 +109,6 @@ aside {
 	width: 40%;
 	height: 120px;
 	padding: 0.5rem;
-
 }
 
 .recomended img {
@@ -245,9 +244,9 @@ form.search input[type='text'] {
 	cursor: pointer;
 }
 
-.incoming-comment{
-	 line-height: 25px;
-	 margin-top: 2rem;
+.incoming-comment {
+	line-height: 25px;
+	margin-top: 2rem;
 }
 
 .commenter-icon i {
@@ -276,7 +275,7 @@ form.search input[type='text'] {
 .like,
 .dislike {
 	font-size: 12px;
-	padding: .3rem;
+	padding: 0.3rem;
 }
 
 .view-replies {
@@ -285,26 +284,26 @@ form.search input[type='text'] {
 	color: rgb(54, 54, 230);
 }
 
-.reply{
+.reply {
 	cursor: pointer;
 }
 
-#add-comment{
- margin-top: 2rem;
-  margin-bottom: 7rem;
+#add-comment {
+	margin-top: 2rem;
+	margin-bottom: 7rem;
 	padding-left: 4%;
 }
 
 #add-comment span i {
-	 float: left;
-	 font-size: 3rem;
+	float: left;
+	font-size: 3rem;
 }
 
 #add-comment form #comments-line {
 	border: none;
 	float: left;
-	margin-left: .7rem;
-	margin-top: .7rem;
+	margin-left: 0.7rem;
+	margin-top: 0.7rem;
 	border-bottom: 1px solid #4c4c4c;
 	width: 90%;
 	pointer-events: none;
