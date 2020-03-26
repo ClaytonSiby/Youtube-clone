@@ -249,58 +249,14 @@ form.search input[type='text'] {
 	cursor: pointer;
 }
 
-#user-btn i {
-	font-size: 3rem;
-}
-#user-btn2 {
-	font-size: 3rem;
-}
-#comments-line {
-	border: none;
-	border-bottom: 1px solid black;
-	float: right;
-	width: 95%;
-	margin-top: 15px;
-}
-
-#comments-line #user-btn i {
-	float: left;
-}
-
-#comment-div {
-	margin-top: 20px;
-	padding: 20px;
-}
-
-.comment-div {
-	margin-top: 1px;
-	padding: 20px;
-}
-
-.comments-line2 {
-	border: none;
-	float: right;
-	width: 95%;
-	margin-top: 15px;
-}
-
-form.comment-div #user {
-	margin-left: 60px;
-}
-
-form.comment-div #icons-comment {
-	margin-left: 55px;
-
-	padding: 2px;
-}
-
 .incoming-comment{
-     line-height: 25px;
+	 line-height: 25px;
+	 margin-top: 2rem;
 }
 
 .commenter-icon i {
 	float: left;
-	font-size: 25px;
+	font-size: 1.9rem;
 }
 
 .incoming-comment p {
@@ -335,4 +291,29 @@ form.comment-div #icons-comment {
 
 .reply{
 	cursor: pointer;
+}
+
+#add-comment{
+ margin-top: 2rem;
+  margin-bottom: 7rem;
+	padding-left: 4%;
+}
+
+#add-comment span i{
+	 float: left;
+	 font-size: 3rem;
+}
+
+#add-comment form #comments-line{
+	border: none;
+	float: left;
+	margin-left: .7rem;
+	margin-top: .7rem;
+	border-bottom: 1px solid #4c4c4c;
+	width: 90%;
+	pointer-events: none;
+}
+
+#viewers-comment-section{
+	padding-left: 4%;
 }

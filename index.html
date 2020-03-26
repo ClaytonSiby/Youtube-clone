@@ -16,7 +16,7 @@
 				</div>
 
 				<div class="column1">
-					<form class="search" action="">
+					<form class="search">
 						<input type="text" placeholder="Search..." name="search" />
 						<button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
 					</form>
@@ -25,6 +25,7 @@
 				<div id="icons_right">
 					<span class="right-icon"><i class="fas fa-video"></i></span>
 					<span class="right-icon"><i class="fas fa-th"></i></span>
+					<span class="right-icon"><i class="fas fa-bell"></i></span>
 					<span class="right-icon"><i class="fas fa-ellipsis-v"></i></span>
 					<button type="button" name="button" id="sign-in-btn">
 						<span><i class="far fa-user-circle"></i></span> SIGN IN
@@ -85,29 +86,73 @@
 					</div>
 				</div>
 
-				<div>
-					<form action="" method="post" id="comment-div">
-						<span id="user-btn"><i class="fas fa-user-circle"></i></span>
-						<input type="text" name="" value="" placeholder="Add a public comment..." id="comments-line" />
+				<div id="add-comment">
+					<span id="user-btn"><i class="fas fa-user-circle"></i></span>
+					<form>
+						<input type="text" placeholder="Add a public comment..." id="comments-line" />
 					</form>
 				</div>
 
-				<!-- comments here -->
-				<div class="incoming-comment">
-					<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
-					<p class="comment-title">Sulli Max <span>1 week ago</span></p>
-					<p class="comment-text">
-						How am I supposed to get any work done staring at these gorgeous images??? Images and music are
-						a perfect blend, great job :)
-					</p>
-					<p>
-						<span class="like"><i class="fas fa-thumbs-up"></i></span> 2
-						<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 5 <span class="reply">REPLY</span>
-					</p>
-					<p>
-						<span><i class="fas fa-caret-down"></i></span>
-						<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
-					</p>
+				<!-- viewers comments section here -->
+				<div id="viewers-comment-section">
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">Sulli Max <span>1 week ago</span></p>
+						<p class="comment-text">
+							How am I supposed to get any work done staring at these gorgeous images??? Images and music
+							are a perfect blend, great job :)
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 2
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 5
+							<span class="reply">  REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
+
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">
+							Thibaut Deathook
+							<span>2 weeks ago</span>
+						</p>
+						<p class="comment-text">
+							a little bit repetitive... it will be cooler with a mix of your ambient (10 min each)! i
+							appreciate your music :)
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 20
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 4
+							<span class="reply">   REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
+
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">
+							Catalin Lazar
+							<span>2 weeks ago</span>
+						</p>
+						<p class="comment-text">
+							Wow, I'm fully relaxed start listening after 15 min
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 2
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 5
+							<span class="reply">   REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
 				</div>
 			</section>
 
