@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid rgb(34, 31, 31);
+  padding: 20px;
+}
+
+.container {
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+section {
+  float: left;
+  width: 63%;
+}
+
+iframe {
+  width: 100%;
+  height: 80vh;
+}
+
+.link a {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: blueviolet;
+}
+
+.likes span {
+  padding-left: 0.5rem;
+  font-size: 12px;
+}
+
+.commenter-icon i {
+  float: left;
+  font-size: 1.9rem;
+}
+
+.likes span i {
+  font-size: 15px;
+}
+
+.views-count-and-like-icons {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.views-count-and-like-icons span {
+  padding-left: 0.5rem;
+  pointer-events: pointer;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.subscribers-detailed-text {
+  font-size: 15px;
+  font-weight: 10;
+  margin-left: 3.5rem;
+}
+
+.host-icon {
+  font-size: 2.8rem;
+  float: left;
+}
+
+.subscribe-btn {
+  background: #f00707;
+  padding: 0.5em;
+  cursor: pointer;
+  border: none;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 35%;
+}
+
+.side-bar-intro-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.side-bar-intro-text p i {
+  font-size: 25px;
+  color: rgb(41, 41, 194);
+}
+
+.upnext img {
+  float: left;
+  width: 40%;
+  height: 120px;
+  padding: 0.5rem;
+}
+
+.recomended img {
+  float: left;
+  width: 40%;
+  height: 120px;
+  padding: 0.5rem;
+}
+
+.description-text {
+  padding: 0.5rem;
+  font-size: 12px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.user-info .title {
+  margin-left: 0.9rem;
+}
+
+#search {
+  width: 80%;
+  height: 2rem;
+}
+
+.column1 {
+  float: left;
+  width: 60%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#icons_right {
+  float: right;
+  width: 20%;
+}
+
+.right-icon {
+  font-size: 21px;
+  padding: 0.5rem;
+}
+
+#sign-in-btn {
+  padding: 8px;
+  color: blue;
+}
+
+#search-btn {
+  float: left;
+  width: 10%;
+  padding: 7px;
+  background: #fff;
+  color: #4c4c4c;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+#logo {
+  display: flex;
+  display: inline-block;
+  margin-left: 1em;
+  height: 1.2rem;
+}
+
+form.search input[type='text'] {
+  padding: 7px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #fff;
+}
+
+.host-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  line-height: 35px;
+}
+
+.host-info span i {
+  float: left;
+  font-size: 35px;
+}
+
+#sign-in-btn i {
+  font-size: 20px;
+}
+
+.host-info.title,
+.host-info p {
+  margin-left: 2.9rem;
+}
+
+#subscribe-btn {
+  padding: 0.5rem;
+  background: #df1212;
+  border: none;
+}
+
+.num-of-subscribers {
+  font-size: 12px;
+}
+
+.host-info .title {
+  line-height: 10px;
+}
+
+#comments-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+#sort-text {
+  cursor: pointer;
+}
+
+.incoming-comment {
+  line-height: 25px;
+  margin-top: 2rem;
+}
+
+.incoming-comment p {
+  margin-left: 2rem;
+}
+
+.comment-title {
+  font-size: 18px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.comment-title span {
+  font-size: 14px;
+}
+
+.comment-text {
+  font-size: 15px;
+}
+
+.like,
+.dislike {
+  font-size: 12px;
+  padding: 0.3rem;
+}
+
+.view-replies {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(54, 54, 230);
+}
+
+.reply {
+  cursor: pointer;
+}
+
+#add-comment {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  padding-left: 4%;
+}
+
+#add-comment span i {
+  float: left;
+  font-size: 3rem;
+}
+
+#add-comment form #comments-line {
+  border: none;
+  float: left;
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
+  border-bottom: 1px solid #4c4c4c;
+  width: 90%;
+  pointer-events: none;
+}
+
+#viewers-comment-section {
+  padding-left: 4%;
+}

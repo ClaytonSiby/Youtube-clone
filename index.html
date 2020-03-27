@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youtube Clone</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="row">
+				<div class="column">
+					<span id="menu-icon"><i class="fas fa-bars"></i></span>
+					<img src="images/logo3.jpg" alt="this is a youtube icon" id="logo" />
+				</div>
+
+				<div class="column1">
+					<form class="search">
+						<input type="text" placeholder="Search..." name="search" />
+						<button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+
+				<div id="icons_right">
+					<span class="right-icon"><i class="fas fa-video"></i></span>
+					<span class="right-icon"><i class="fas fa-th"></i></span>
+					<span class="right-icon"><i class="fas fa-bell"></i></span>
+					<span class="right-icon"><i class="fas fa-ellipsis-v"></i></span>
+					<button type="button" name="button" id="sign-in-btn">
+						<span><i class="far fa-user-circle"></i></span> SIGN IN
+					</button>
+				</div>
+			</div>
+		</nav>
+
+		<main class="container">
+			<section>
+				<div class="section-container">
+					<div class="video-embed">
+						<iframe src="https://www.youtube.com/embed/jXZAbnn1kTU"></iframe>
+						<p class="link"><a href="#">#studymusic #musicforstudying #ambient</a></p>
+						<h2>Ambient Music to concentrate - 4hours of music for study...</h2>
+						<br />
+						<div class="views-count-and-like-icons">
+							<div class="views">
+								<p class="description-text">6,948 views • 18 Dec 2019</p>
+							</div>
+							<div class="likes">
+								<span class="like-icon"><i class="fas fa-thumbs-up"></i> 85</span>
+								<span class="dislike-icon"><i class="fas fa-thumbs-down"></i> 40</span>
+							</div>
+							<div class="save-share-options-icons">
+								<span class="share-icon"><i class="fas fa-share"></i>share</span>
+								<span class="save-icon"><i class="fas fa-folder-plus"></i>save</span>
+								<span class="options"><i class="fas fa-ellipsis-h"></i></span>
+							</div>
+						</div>
+					</div>
+					<hr />
+
+					<div class="host-info">
+						<div>
+							<span><i class="far fa-user-circle"></i></span>
+							<p class="title">
+								Quiet Quest -Study Music
+							</p>
+							<p class="num-of-subscribers">23.9K subscribers</p>
+
+							<p>Enjoy this study music with beautiful nature landscapes from Quiet Quest -Study Music</p>
+							<p>
+								Play this instrumental music in the background and use it as concentration music, focus
+								music or
+							</p>
+							<p>SHOW MORE</p>
+						</div>
+
+						<div>
+							<button id="subscribe-btn" type="submit">SUBSCRIBE</button>
+						</div>
+					</div>
+					<hr />
+					<div id="comments-counter">
+						<p>132 comments</p>
+						<span id="sort-text"><i class="fas fa-sort-amount-down"></i> SORT BY</span>
+					</div>
+				</div>
+
+				<div id="add-comment">
+					<span id="user-btn"><i class="fas fa-user-circle"></i></span>
+					<form>
+						<input type="text" placeholder="Add a public comment..." id="comments-line" />
+					</form>
+				</div>
+
+				<!-- viewers comments section here -->
+				<div id="viewers-comment-section">
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">Sulli Max <span>1 week ago</span></p>
+						<p class="comment-text">
+							How am I supposed to get any work done staring at these gorgeous images??? Images and music
+							are a perfect blend, great job :)
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 2
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 5
+							<span class="reply">  REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
+
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">
+							Thibaut Deathook
+							<span>2 weeks ago</span>
+						</p>
+						<p class="comment-text">
+							a little bit repetitive... it will be cooler with a mix of your ambient (10 min each)! i
+							appreciate your music :)
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 20
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 4
+							<span class="reply">   REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
+
+					<div class="incoming-comment">
+						<span class="commenter-icon"><i class="far fa-user-circle"></i></span>
+						<p class="comment-title">
+							Catalin Lazar
+							<span>2 weeks ago</span>
+						</p>
+						<p class="comment-text">
+							Wow, I'm fully relaxed start listening after 15 min
+						</p>
+						<p>
+							<span class="like"><i class="fas fa-thumbs-up"></i></span> 2
+							<span class="dislike"><i class="fas fa-thumbs-down"></i></span> 5
+							<span class="reply">   REPLY</span>
+						</p>
+						<p>
+							<span><i class="fas fa-caret-down"></i></span>
+							<a href="#" class="view-replies">View Reply from Quiet Quest -Study Music</a>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<aside>
+				<div class="side-bar-intro-text">
+					<p>Up next</p>
+					<p>Autoplay <i class="fas fa-toggle-on"></i></p>
+				</div>
+
+				<div class="upnext">
+					<div>
+						<img src="images/deepfocus.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Ambient study music to concentrate -4hours of Musi...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>1.1M views. 3 months ago</p>
+					</div>
+				</div>
+				<hr />
+				<br />
+				<div class="recomended">
+					<div>
+						<img src="images/study.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Mix -Study music to help remember. 4hours</p>
+						<br />
+						<p>YouTube</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study2.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Aurora Borealis And Northern Lights -Relaxing Ambient Mus...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>4.7M views. 1 month ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study3.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Super Intelligence: Memory Music, Improve Memory and...</p>
+						<br />
+						<p>Greenred Productions -Relax...</p>
+						<p>776k views. 2 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study4.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Aurora Borealis And Northern Lights -Relaxing Ambient Mus...</p>
+						<br />
+						<p>Quiet Quest- Study</p>
+						<p>4.7M views. 1 month ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/spirit-image2.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Bible verses for sleep with music ( The power of God's...</p>
+						<br />
+						<p>Peaceful Scriptures</p>
+						<p>Recommended for you</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study5.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">FOCUS MUSIC PLAYLIST: Pomodoro Style Piano Study...</p>
+						<br />
+						<p>Study Music Project</p>
+						<p>108k vies . 6 months ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study6.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Relaxing Music & Soft Rain: Sleep Music, Calm Piano Musi...</p>
+						<br />
+						<p>Soothing Relaxation</p>
+						<p>4.7 views . 1 year ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study7.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">6 Hour Study Music Alpha Waves: Relaxing Studying...</p>
+						<br />
+						<p>Body Mind Zone</p>
+						<p>5.8M views . 5 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study8.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Deep Focus -Music for Studying, Concentration and...</p>
+						<br />
+						<p>Quiet Quest -Study Music</p>
+						<p>154k views . 2 months ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/study9.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Relaxing Sleep Music: Deep Sleeping Music, Fall Asleep,...</p>
+						<br />
+						<p>Soothing Relaxation</p>
+						<p>4.5M views . 2 years ago</p>
+					</div>
+				</div>
+
+				<div class="recomended">
+					<div>
+						<img src="images/spirit-image1.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Spiritual warfare prayer scriptures ( Encouraging Bible...</p>
+						<br />
+						<p>Peaceful Scriptures</p>
+						<p>Recommended for you</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study10.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">8 hour study Music: Brain Power, Studying Music, Focus...</p>
+						<br />
+						<p>Body Mind Zone</p>
+						<p>3M views . 5 years ago</p>
+					</div>
+				</div>
+				<div class="recomended">
+					<div>
+						<img src="images/study11.jfif" alt="" />
+					</div>
+
+					<div class="description-text">
+						<p class="title">Active Brain to 100% Potential : Genius Brain Frequency-...</p>
+						<br />
+						<p>Good Vibes -Binaural Beats</p>
+						<p>12M . 2 years ago</p>
+					</div>
+				</div>
+			</aside>
+		</main>
+	</body>
+</html>
